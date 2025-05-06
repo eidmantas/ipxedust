@@ -9,9 +9,9 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/eidmantas/ipxedust"
 	"github.com/go-logr/logr"
 	"github.com/go-logr/stdr"
-	"github.com/tinkerbell/ipxedust"
 )
 
 func main() {

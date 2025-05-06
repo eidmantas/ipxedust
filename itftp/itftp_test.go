@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eidmantas/ipxedust/binary"
 	"github.com/go-logr/logr"
 	"github.com/google/go-cmp/cmp"
 	"github.com/pin/tftp/v3"
-	"github.com/tinkerbell/ipxedust/binary"
 	"go.opentelemetry.io/otel/trace"
 )
 

@@ -12,10 +12,10 @@ import (
 	"time"
 
 	"dario.cat/mergo"
+	"github.com/eidmantas/ipxedust/ihttp"
+	"github.com/eidmantas/ipxedust/itftp"
 	"github.com/go-logr/logr"
 	"github.com/pin/tftp/v3"
-	"github.com/tinkerbell/ipxedust/ihttp"
-	"github.com/tinkerbell/ipxedust/itftp"
 	"golang.org/x/sync/errgroup"
 )
 

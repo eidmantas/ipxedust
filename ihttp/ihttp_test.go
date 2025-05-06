@@ -14,10 +14,10 @@ import (
 	"os"
 	"testing"
 
+	"github.com/eidmantas/ipxedust/binary"
 	"github.com/go-logr/logr"
 	"github.com/go-logr/stdr"
 	"github.com/google/go-cmp/cmp"
-	"github.com/tinkerbell/ipxedust/binary"
 	"go.opentelemetry.io/otel/trace"
 )
 
